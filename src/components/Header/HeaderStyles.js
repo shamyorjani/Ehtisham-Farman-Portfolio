@@ -1,6 +1,21 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
+export const ProfileImage = styled.img`
+  border: 1.2px solid white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+`;
+export const ProfileLink = styled.a`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+`;
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -30,6 +45,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }

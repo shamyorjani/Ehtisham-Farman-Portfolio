@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiCode } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,8 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+    I've worked with a range of technologies in the web development world, from back-end development to front-end design. Below is an overview of my technical expertise and the projects.
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +18,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience with <br />
+            HTML&CSS, Sass, JavaScript, React.js, Bootstrap, and TailwindCSS 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,19 +31,19 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Laravel, PHP, SQL, and Flask.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiCode size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Additional</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Python, jQuery, Java, C++ $ C, Alpine.js, Web Scrapping and git.
           </ListParagraph>
         </ListContainer>
       </ListItem>
